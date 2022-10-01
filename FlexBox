@@ -1,0 +1,68 @@
+<!--ADICIONEI FLEXBOX NO FOOTER!!-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .h1 {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    }
+    .h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 30px solid #000;
+    font-size: 100%
+    }
+    .img {
+        border: 10px solid rgb(145, 94, 164);
+        margin: auto;
+        display: block;
+        width: 60%;
+    }
+    .p {
+        text-indent: 50px; 
+        font-size: 25px; 
+    }
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        font-size: 150%;
+        
+    }
+    .body {
+        background-color: rgb(66, 91, 82);
+    }
+    .container{
+        display: flex;
+
+    }
+</style>
+<header class="h1">
+    <h1> Pontos turisticos no Recife Antigo </h1>
+</header>
+<section class="h3">
+    <h3> Conheça 2 pontos turisticos no Recife Antigo ! </h3>
+</section>
+<body class="body">
+    <p class="p" > Centro de Artesanato de Pernambuco: </p>
+    <img class="img" src="https://oitravels228219332.files.wordpress.com/2021/05/artesanato-de-pernambuco.jpg">
+    <p> Inaugurado em 2012, o Centro de Artesanato de Pernambuco tem como foco a arte popular e o artesanato tradicional. Ele fica no antigo Armazém 11, além de poder adquirir várias peças de grandes artesãos e artistas reconhecidos de todo o estado, há galeria para exposição, auditório e espaço gastronômico com uma vista para o rio Capibaribe.</p>
+    <br>
+    <p class="p"> Caixa Cultural Recife: </p>
+    <img class="img" src="https://oitravels228219332.files.wordpress.com/2021/05/caixa-cultural.jpg?w=768&h=565">
+    <p> Inaugurado em 2012, a Caixa Cultural abriga várias exposições de artes, assim como oficinas e teatro. Em Recife, o seu prédio tem uma história muito importante para a cidade, foi projetado no século XX para ser sede do Bank of London & South America Limited, em 1967 foi adquirido pela Bolsa de Valores e já em 2006 foi adquirido pela Caixa Econômica Federal para ser a sede da CAIXA Cultural Recife.</p>   
+</body>
+<footer class="footer">
+    <ul>
+        <li> Para saber mais sobre o Marco Zero: <a href="marcozero.html">Marco zero: O ponto de origem da capital Pernambucana </a></li>
+        <li> fonte de pesquisa: <a href="https://oitravels.org/2021/05/07/praca-do-marco-zero-no-recife-antigo/">oitravels</li>
+    </ul>
+</html>
